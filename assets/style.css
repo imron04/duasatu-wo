@@ -396,3 +396,75 @@ form#kirim-form button {
     font-size: 20px;
   }
 }
+
+.custom-footer {
+  background-color: #f2f2f2;
+  color: #333;
+  padding: 4em 1em;
+  text-align: center;
+}
+
+.custom-footer-inner {
+  max-width: 65em;
+  margin: 0 auto;
+}
+
+.custom-footer-heading {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+}
+
+.custom-footer-text {
+  margin-bottom: 1.5em;
+  font-size: 1em;
+}
+
+.custom-footer-icons {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
+  margin: 1.5em 0;
+}
+
+.custom-footer-icons li {
+  display: inline-block;
+}
+
+.custom-icon {
+  display: inline-block;
+  width: 2.75em;
+  height: 2.75em;
+  line-height: 2.75em;
+  border-radius: 100%;
+  text-align: center;
+  font-size: 1.25em;
+  color: white;
+  background-color: #333;
+  transition: background-color 0.3s ease;
+}
+
+.custom-icon:hover {
+  background-color: #555;
+}
+
+/* Responsive */
+@media screen and (max-width: 768px) {
+  .custom-footer {
+    padding: 3em 1em;
+  }
+
+  .custom-footer-icons {
+    gap: 0.5em;
+  }
+
+  .custom-icon {
+    width: 2.25em;
+    height: 2.25em;
+    line-height: 2.25em;
+    font-size: 1em;
+  }
+}
+
